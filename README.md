@@ -6,6 +6,9 @@ CloudShelter allows you to encrypt files using AES. It can automatically upload 
 It also contains an unfinished integration of http://weiyun.com/ which is a chinese cloud provider without any API whatsoever. The current implementation might not be up to date or usable, as it is based on reverse engineering the Web Interface, but Google Drive and Dropbox use the official REST APIs and should work.
 CloudShelter also allows to "stream" your encrypted videos from said hosters by downloading and encrypting them on the fly.
 
+**Before trying to do anything, you have to add keys to "driveSecretKey.json" and "dropboxSecretKey.txt".**
+**Currently, you have to use the same password for all files.**
+
 ### TL;DR
 
 CloudShelter can upload files to a cloud hoster, handling encryption on its own.

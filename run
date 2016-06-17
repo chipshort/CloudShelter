@@ -1,0 +1,4 @@
+#!/bin/bash
+
+bin/CloudShelter upload .gitignore .gitignore Dropbox 1042u30tjgj02u523
+bin/CloudShelter download .gitignore downloaded_gitignore.txt Dropbox 1042u30tjgj02u523

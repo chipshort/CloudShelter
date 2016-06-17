@@ -1,0 +1,6 @@
+-lib hxBitcoin
+-lib oauth
+-lib hxssl
+-cp src
+-cpp bin
+-main CloudShelter
